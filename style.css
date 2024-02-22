@@ -1,3 +1,9 @@
+body {
+    background-color: aliceblue;
+}
+.nav-tp {
+    background-color: aliceblue;
+}
 .nav-bar {
     height: 80px;
 }
@@ -6,6 +12,7 @@
     background-image: url(./Images/home-banner.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 7rem ;
 }
 .hero-left {
     height: 550px;
@@ -67,8 +74,44 @@
 .sec-5-btn p {
     height: 10px;
 }
-
-
+.sec-6 {
+    border: none;
+    border-radius: 5px !important;
+    background-color: #fff;
+    color: #808080;
+}
+.sec-6:hover {
+    background-color: crimson;
+    transition: 1s;
+    color: #fff;
+}
+.sec-7-img {
+    background-color: #f0f8ff;
+    filter: opacity(.4);
+}
+.sec-7-img:hover {
+    filter: opacity(1);
+}
+.sec-8-bg {
+    background-color: #222222;
+}
+.sec-8-form {
+    display: flex;
+}
+.sec-8-form input {
+    width: 85%;
+    border: none;
+}
+.sec-8-form button {
+    border: none;
+}
+.sec-8-link {
+    color: #bcbaba;
+    padding-right: 1rem;
+}
+.sec-8-link:hover {
+    color: crimson;
+}
 
 @media screen and (max-width:992px) {
     .sec-5-btn {
