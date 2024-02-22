@@ -18,3 +18,33 @@
     padding: 10px 0px;
     color: #fff;
 }
+.sec-2-right .sec-col {
+    border: 1px solid #808080;
+}
+.sec-3-btn {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.sec-bg {
+    height: auto;
+    background-image: url(./Images/testi-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(.5);
+}
+.sec-4-card {
+    height: 400px;
+    border-radius: 7px;
+    margin-top: 60px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.3);
+}
+.sec-4-h4 {
+    color: #fff;
+}
+.sec-4-h4:hover {
+    color: red;
+    transition: 1s;
+}
