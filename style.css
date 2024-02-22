@@ -48,3 +48,41 @@
     color: red;
     transition: 1s;
 }
+.sec-5-btn {
+    position: relative;
+}
+.sec-5-btn button {
+    width: 150px;
+    border: none;
+    color: #fff;
+    background-color: crimson;
+    position: absolute;
+    bottom: 1.5rem;
+    text-align: center;
+}
+.sec-5-btn button:hover {
+    color: crimson;
+    background-color: #fff;
+}
+.sec-5-btn p {
+    height: 10px;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .sec-5-btn {
+        position: relative;
+    }
+    .sec-5-btn button {
+        left: 2.5rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .sec-5-btn {
+        position: relative;
+    }
+    .sec-5-btn button {
+        left: 8rem;
+    }
+}
