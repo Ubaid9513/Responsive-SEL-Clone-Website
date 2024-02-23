@@ -1,22 +1,28 @@
 body {
     background-color: aliceblue;
+    position: relative;
 }
 .nav-tp {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
-.nav-bar {
-    height: 80px;
+#nav-bar-a {
+    color: crimson;
+}
+#nav-bar-a2 {
+    color: #000;
+}
+#nav-bar-a2:hover {
+    color: crimson;
 }
 .bg {
     height: 550px;
     background-image: url(./Images/home-banner.jpg.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 7rem ;
+    margin-top: 4.3rem ;
 }
 .hero-left {
     height: 550px;
-    /* background-color: wheat; */
 }
 .hero-left button {
     width: 150px;
@@ -24,6 +30,29 @@ body {
     border-radius: 5px;
     padding: 10px 0px;
     color: #fff;
+}
+.hero-form {
+    width: 450px;
+    box-shadow: -2px 0px 25px 0px rgba(0,0,0,0.75);
+    background-color: #f0f8ff;
+    position: absolute;
+    top: 180px;
+    right: 50px;
+    border-radius: 15px;
+}
+.hero-form button {
+    border: none;
+    color: #fff;
+    background-color: crimson;
+}
+.hero-form button:hover {
+    background-color: #fff;
+    color: crimson;
+    border: 1px solid crimson;
+    transition: .5s;
+}
+.sec-2-cont {
+    margin-top: 180px;
 }
 .sec-2-right .sec-col {
     border: 1px solid #808080;
@@ -119,6 +148,12 @@ body {
     }
     .sec-5-btn button {
         left: 2.5rem;
+    }
+    .hero-form {
+        position: static;
+    }
+    .sec-2-cont {
+        margin-top: 0px;
     }
 }
 @media screen and (max-width:768px) {
